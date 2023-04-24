@@ -2,6 +2,7 @@ body {
     margin: 200px; 
     text-align: center; 
 }
+
 p {
     font-family: 'Life Savers'; 
     font-weight: 700; 
@@ -28,11 +29,11 @@ p {
     top: -150%;
     left: -50%;
     border-radius: 40%;
-    animation: anim 5s linear;
+    animation: fill 5s linear;
     animation-fill-mode: forwards; 
 }
   
-@keyframes anim {
+@keyframes fill {
     0% {
         transform: rotate(0deg);
         transform: translateY(80px);
