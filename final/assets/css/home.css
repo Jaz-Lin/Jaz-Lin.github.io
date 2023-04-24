@@ -83,6 +83,10 @@ html {
     top: 265px; 
 }
 
+.flag-sign:hover {
+    cursor: pointer; 
+}
+
 .milk-teas {
     display: flex; 
     justify-content: flex-start; 
@@ -92,5 +96,6 @@ html {
 }
 
 .boba:hover {
-    cursor:pointer; 
+    cursor: pointer; 
+    margin-top: -10px; 
 }

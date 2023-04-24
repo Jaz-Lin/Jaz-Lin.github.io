@@ -1,0 +1,77 @@
+body {
+    margin: 200px; 
+    text-align: center; 
+}
+p {
+    font-family: 'Life Savers'; 
+    font-weight: 700; 
+    font-size: 16px; 
+}
+
+.liquid {
+    margin: auto;
+    padding-top: 50px; 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #DFC2A2;
+    box-shadow: inset 0 0 50px #D2A97D;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%); 
+}
+  
+.liquid::before {
+    content: "";
+    width: 200%;
+    height: 200%;
+    background-color: #ececec;
+    position: absolute;
+    top: -150%;
+    left: -50%;
+    border-radius: 40%;
+    animation: anim 5s linear;
+    animation-fill-mode: forwards; 
+}
+  
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+        transform: translateY(80px);
+    }
+    50% {
+        transform: rotate(180deg); 
+        transform: translateY(40px);
+    }
+    100% {
+        transform: rotate(360deg);
+        transform:translateY(-50px);
+    }
+}
+
+.boba {
+    position: absolute;
+    background: #413833;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.one {
+	margin: 150px 0 0 30px;
+}
+.two {
+	margin: 140px 0 0 75px;
+}
+.three {
+	margin: 170px 0 0 110px;
+}
+.four {
+	margin: 140px 0 0 140px;
+}
+.five {
+	margin: 120px 0 0 40px;
+}
+.six {
+	margin: 170px 0 0 70px;
+}
+
+
