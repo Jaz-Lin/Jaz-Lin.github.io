@@ -1,0 +1,96 @@
+html {
+    background-color: #D3FCFF; 
+}
+.home-page {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.container {
+    align-self: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    position: relative; 
+    width: 1300px; 
+}
+
+.overlapping-group {
+    position: absolute; 
+    width: 1280px; 
+}
+
+.window {
+    left: 485px; 
+    position: absolute; 
+    top: 265px; 
+}
+
+.roof {
+    height: 250px; 
+    left: 78px; 
+    position: absolute; 
+}
+
+.door {
+    left: 255px; 
+    position: absolute; 
+    top: 277px; 
+}
+
+.ground {
+    position: absolute; 
+    top: 605px; 
+    width: 1280px; 
+}
+
+.wall {
+    left: 185px; 
+    position: absolute; 
+    top: 177px; 
+}
+
+.ground-sign-text {
+    position: absolute;  
+    top: 450px; 
+    left: 45px;
+    font-family: 'Life Savers'; 
+    font-weight: 700;  
+    width: 100px; 
+    word-wrap: break-word; 
+    color: #CCCCCC;
+}
+
+.ground-sign {
+    left: 20px; 
+    position: absolute; 
+    top: 420px; 
+}
+
+.flag-sign-text {
+    font-family: 'Life Savers'; 
+    color: black; 
+    position: absolute; 
+    font-weight: 800; 
+    font-size: 40px; 
+    left: 1120px; 
+    top: 280px; 
+    word-wrap: break-word; 
+}
+
+.flag-sign {
+    left: 1095px; 
+    position: absolute; 
+    top: 265px; 
+}
+
+.milk-teas {
+    display: flex; 
+    justify-content: flex-start; 
+    position: absolute; 
+    left: 655px; 
+    top: 425px; 
+}
+
+.boba:hover {
+    cursor:pointer; 
+}
